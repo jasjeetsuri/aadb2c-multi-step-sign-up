@@ -8,7 +8,10 @@ You can use this policy to display 'Terms of service' or 'Privacy', on a separat
 ## Disclaimer
 The sample policy is developed and managed by the open-source community in GitHub. This policy is not part of Azure AD B2C product and it's not supported under any Microsoft standard support program or service. The policy is provided AS IS without warranty of any kind.
 
-### Application Settings
+## Azure AD Graph API application
+The sample solution (web api) checks if a user already existed in the directory. To run the Web API, you first need to create Azure AD Graph API application. For more information, see [Use the Azure AD Graph API](https://docs.microsoft.com/en-us/azure/active-directory-b2c/active-directory-b2c-devquickstarts-graph-dotnet#register-your-application-in-your-tenant)
+
+## Application Settings
 To test the policy, you need to deploy the Restful API solution (C# .Net core). Open the `AADB2C.MultiStepSignUp.sln` Visual Studio solution in Visual Studio. In the `AADB2C.MultiStepSignUp` project, open the `appsettings.json`. Replace the app settings with your own values:
 ```JSON
 "AppSettings": {
